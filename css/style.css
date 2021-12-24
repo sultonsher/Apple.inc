@@ -1,0 +1,233 @@
+/* GLOBAL */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+/* HEADER */
+.header-div{
+  margin-top: 37px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+}
+
+.header-section__items{
+  list-style: none;
+  display: flex;
+}
+
+.header-section__item a{
+  text-decoration: none;
+  margin-right: 45px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  color: #333333;
+}
+
+.header-main-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+}
+
+.header-main-div__text h1{
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  width: 331px;
+  color: #000000;
+}
+
+.header-main-div__text p{
+  font-size: 16px;
+  font-weight: 400;
+  width: 450px;
+  line-height: 150%;
+  color: #777777;
+  padding-left: 40px;
+}
+
+.find {
+  border: 0;
+  border-radius: 8px;
+}
+
+.for-border{
+  border-left: 3px solid #888;
+}
+
+.global-button{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  color: #fff;
+  text-decoration: none;
+  width: 260px;
+  border: none;
+  top: 240px;
+  background: #EA625C;
+  margin: 30px 0px;
+}
+
+.heder-main-div__img{
+ margin-top: 51px; 
+}
+/* HEADER */
+
+/* MAIN */
+.main-section__items{
+  list-style: none;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+
+.main-section__item h2{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.main-section__item p{
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
+  width: 280px;
+  line-height: 160%;
+}
+
+.main-section__item a{
+  text-decoration: none;
+  color: #EA625C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+
+.main-section-icons{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.main-section-line{
+  display: flex;
+  align-items: center;
+}
+
+.line-part{
+  margin-right: 12px;
+}
+
+.main-section-icon img{
+  margin-right: 20px;
+}
+
+.main-section-icon{
+  margin-right: 300px;
+}
+
+.main-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+
+.main-footer__text{
+  margin-right: 50px;
+}
+
+.main-footer__text h1{
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  width: 380px;
+}
+
+.main-footer__text p{
+  width: 450px;
+  padding-left: 40px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  font-weight: 400;
+}
+
+.main-footer__img img {
+  width: 400px;
+  height: 550px;
+}
+
+.footer-part{
+  height: 830px;
+  background-image: url('../images/runners\ 1.jpg');
+  background-position: top;
+  background-size: cover;
+  margin-top: 50px;
+  background-attachment: fixed  ;
+}
+
+.footer-part__text{
+  margin-left: 725px;
+  margin-top: 300px;
+}
+
+.footer-part__text h1{
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  width: 490px;
+  color: #fff;
+  line-height: 120%;
+}
+
+.footer-part__text p{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+width: 450px;
+height: 120px;
+padding-left: 40px;
+line-height: 150%;
+color: #FFFFFF;
+}
+
+.for-border2{
+  border-left: 3px solid #fff;
+}
